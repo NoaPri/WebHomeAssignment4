@@ -19,4 +19,4 @@ A web-based calculator that checks university admission eligibility. The project
 * `script.js` - Logic and functionality.
 
 ### How to Run
-Open `index.html` in any web browser.
+Open `college_admissions.html` in any web browser.
