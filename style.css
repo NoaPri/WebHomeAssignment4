@@ -1,0 +1,33 @@
+.green {
+    background-color: greenyellow;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Main form container */
+.form-container {
+    border: 1px solid #000; /* black border */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Radio button container */
+.radio-group-container {
+    border: 1px solid #000; /* black border */
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Basic spacing for form groups */
+.form-group {
+    margin-bottom: 10px;
+}
+
+/* Button styling (optional) */
+.button-container {
+    margin-top: 10px;
+}

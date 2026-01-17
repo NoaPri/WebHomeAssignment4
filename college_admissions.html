@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admissions Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>College Admissions Calculator WassimLalaNoa</h1>
+
+        <div class="form-container">
+            <form id="admissionsForm">
+                <div class="form-group">
+                    <label for="age">age:</label>
+                    <input type="number" id="age" name="age" placeholder="">
+                </div>
+
+                
+                
+                <fieldset class="radio-group-container">
+                    <legend>Select from the below options:</legend>
+                    <label>
+                        <input type="radio" name="testType" value="psychometric" checked>
+                        Psychometric and Bagrut
+                    </label>
+                    <label>
+                        <input type="radio" name="testType" value="mechina">
+                        Mechina and Bagrut
+                    </label>
+                </fieldset>
+                
+
+                <div class="form-group">
+                    <label for="psychometricGrade">Psychometric Grade:</label>
+                    <input type="number" id="psychometricGrade" name="psychometricGrade" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="bagroutGrade">Bagrut Grade:</label>
+                    <input type="number" id="bagroutGrade" name="bagroutGrade" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="mechinaGrade">Mechina Grade:</label>
+                    <input type="number" id="mechinaGrade" name="mechinaGrade" placeholder="">
+                </div>
+
+                <div class="button-container">
+                    <button type="button" id="validateBtn">validate</button>
+                </div>
+
+                <div id="messageArea"></div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to external JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
