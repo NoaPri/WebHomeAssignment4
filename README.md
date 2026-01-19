@@ -19,4 +19,4 @@ A web-based calculator that checks university admission eligibility. The project
 * `script.js` - Logic and functionality.
 
 ### How to Run
-Open `college_admissions.html` in any web browser.
+Open https://noapri.github.io/WebHomeAssignment4/ in any web browser.
